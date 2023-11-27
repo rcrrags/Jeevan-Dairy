@@ -1,7 +1,33 @@
-/* color code 4700D8 main blue
-color code 9900F0 secondary blue
-color code F900BF 3 main pink
-color code FF85B3 light pink
+/* color code #4700D8 main blue
+color code #9900F0 secondary blue
+color code #F900BF 3 main pink
+color code #FF85B3 light pink */
 
+/* *{
+ border: 2px solid red;
+} */
 
-*/
+:root{
+    --primary: #4700D8;
+}
+.bg-blue{
+    background-color: var(--primary);
+}
+.text-blue{
+    color: var(--primary);
+}
+.background-image{
+   transform: rotate(180deg);
+}
+.nav-link.active{
+    
+    text-decoration: underline;
+        color: var(--primary) !important;
+   
+}
+.btn span{
+    color: white;
+}
+.btn span:hover{
+    color: var(--primary);
+}

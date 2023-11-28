@@ -10,6 +10,7 @@ color code #FF85B3 light pink */
 :root{
     --primary: #4700D8;
     --transparent:rgba(0,0,0,0.3);
+    --ternary:#F900BF;
 }
 .bg-blue{
     background-color: var(--primary);
@@ -17,25 +18,39 @@ color code #FF85B3 light pink */
 .text-blue{
     color: var(--primary);
 }
+.bg-pink{
+    background-color: var(--ternary);
+}
+.text-pink{
+    color: var(--ternary);
+}
 /* navbar */
 .navbar{
-    -webkit-backdrop-filter: blur(3px);
-  background-color: var(--ternary);
+  background-color: var(--transparent);
   backdrop-filter: blur(3px);
 }
-.nav-link.active,.nav-link:hover{
-    
+.nav-link.active,.nav-link:hover{   
     text-decoration: underline;
-    color: var(--primary) !important;
-    font-weight: bold;
-   
+    color: var(--ternary) !important;
+    font-weight: bold; 
 }
-.btn span{
+/* .btn{
     color: white;
+} */
+.btn:hover{
+    color: var(--primary) !important;
+    
 }
-.btn span:hover{
-    color: var(--primary);
+.background-image{
+    transform: rotate(180deg);
 }
-    /* .background-image{
-       transform: rotate(180deg);
-    } */
+
+.container-fluid {
+    --mdb-gutter-x: 0;
+}
+
+/* card */
+.box:hover{
+    transition: all 0.4s ease-in;
+    transform: translateY(-20px) !important;
+}

@@ -7,65 +7,75 @@ color code #FF85B3 light pink */
  border: 2px solid red;
 } */
 
-:root{
-    --primary: #4700D8;
-    --transparent:rgba(0,0,0,0.3);
-    --ternary:#F900BF;
+/* colors */
+:root {
+  --primary: #4700d8;
+  --transparent: rgba(0, 0, 0, 0.3);
+  --ternary: #f900bf;
 }
-.bg-blue{
-    background-color: var(--primary);
+
+/* font */
+@font-face {
+  font-family: 'cooper_blackregular';
+  src: url('font/COOPBL.TTF');
 }
-.text-blue{
-    color: var(--primary);
+h1,.logo {
+  font-family: 'cooper_blackregular';
 }
-.bg-pink{
-    background-color: var(--ternary);
+
+.bg-blue {
+  background-color: var(--primary);
 }
-.text-pink{
-    color: var(--ternary);
+.text-blue {
+  color: var(--primary);
+}
+.bg-pink {
+  background-color: var(--ternary);
+}
+.text-pink {
+  color: var(--ternary);
 }
 /* navbar */
-.navbar{
+.navbar {
   background-color: var(--transparent);
   backdrop-filter: blur(3px);
 }
-.nav-link.active,.nav-link:hover{   
-    text-decoration: underline;
-    color: var(--ternary) !important;
-    font-weight: bold; 
+.nav-link.active,
+.nav-link:hover {
+  text-decoration: underline;
+  color: var(--ternary) !important;
+  font-weight: bold;
 }
 /* .btn{
     color: white;
 } */
-.btn:hover{
-    color: var(--primary) !important;
-    
+.btn:hover {
+  color: var(--primary) !important;
 }
-.background-image{
-    transform: rotate(180deg);
+.background-image {
+  transform: rotate(180deg);
 }
 
 .container-fluid {
-    --mdb-gutter-x: 0;
+  --mdb-gutter-x: 0;
 }
 
 /* card */
-.box:hover{
-    transition: all 0.4s ease-in;
-    transform: translateY(-20px) !important;
+.box:hover {
+  transition: all 0.4s ease-in;
+  transform: translateY(-20px) !important;
 }
-.icon{
-    height: 5rem;
+.icon {
+  height: 5rem;
 }
-
 
 /* footer */
-.icons a:hover{
-    color: white !important;
+.icons a:hover {
+  color: white !important;
 }
 
-@media screen and (min-width:250px) and (max-width: 540px){
-    .icon{
+@media screen and (min-width: 250px) and (max-width: 540px) {
+  .icon {
     height: 2.5rem;
-}
+  }
 }

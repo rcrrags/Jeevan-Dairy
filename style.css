@@ -54,3 +54,12 @@ color code #FF85B3 light pink */
     transition: all 0.4s ease-in;
     transform: translateY(-20px) !important;
 }
+.icon{
+    height: 5rem;
+}
+
+
+/* footer */
+.icons a:hover{
+    color: white !important;
+}

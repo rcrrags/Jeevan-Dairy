@@ -63,3 +63,9 @@ color code #FF85B3 light pink */
 .icons a:hover{
     color: white !important;
 }
+
+@media screen and (min-width:250px) and (max-width: 540px){
+    .icon{
+    height: 2.5rem;
+}
+}

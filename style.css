@@ -21,8 +21,9 @@ color code #FF85B3 light pink */
 }
 p{
   font-size: larger;
-  font-family: 'Licorice', cursive;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+.font2{
   font-family: 'Playfair Display', serif;
 }
 
@@ -96,7 +97,9 @@ h1,
   }
 } */
 
-
+button{
+  font-size: 0.9rem !important;
+}
 .text-white {
   color: white;
 }

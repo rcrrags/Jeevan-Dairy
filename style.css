@@ -80,15 +80,15 @@ h1,
 }
 
 /* footer */
-.icons a:hover {
+.icons:hover {
   color: white !important;
 }
 
-@media screen and (min-width: 250px) and (max-width: 540px) {
-  .icon {
+/* @media screen and (min-width: 250px) and (max-width: 540px) {
+  .icons {
     height: 2.5rem;
   }
-}
+} */
 
 
 .text-white {

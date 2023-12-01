@@ -7,13 +7,28 @@ color code #FF85B3 light pink */
  border: 2px solid red;
 } */
 
+
+
+
 /* colors */
 :root {
   --primary: #4700d8;
   --transparent: rgba(0, 0, 0, 0.3);
   --ternary: #f900bf;
 }
-
+/* Utility classes */
+.bg-blue {
+  background-color: var(--primary);
+}
+.text-blue {
+  color: var(--primary);
+}
+.bg-pink {
+  background-color: var(--ternary);
+}
+.text-pink {
+  color: var(--ternary);
+}
 /* font */
 @font-face {
   font-family: 'cooper_blackregular';
@@ -31,23 +46,6 @@ h1,
 .logo {
   font-family: 'cooper_blackregular';
 }
-
-.bg-blue {
-  background-color: var(--primary);
-}
-
-.text-blue {
-  color: var(--primary);
-}
-
-.bg-pink {
-  background-color: var(--ternary);
-}
-
-.text-pink {
-  color: var(--ternary);
-}
-
 /* navbar */
 .navbar {
   background-color: var(--transparent);
@@ -60,52 +58,31 @@ h1,
   color: var(--ternary) !important;
   font-weight: bold;
 }
-
-/* .btn{
-    color: white;
-} */
-.btn:hover {
-  color: var(--primary) !important;
-}
-
+/* bg wave image  */
 .background-image {
   transform: rotate(180deg);
 }
-
+/* About section */
+.btn:hover {
+  color: var(--primary) !important;
+}
+button{
+  font-size: 0.9rem !important;
+}
 .container-fluid,.row {
   --mdb-gutter-x: 0;
 }
 
-/* card */
+/* card section */
 .box:hover {
   transition: all 0.4s ease-in;
   transform: translateY(-20px) !important;
 }
-
 .icon {
   height: 5rem;
 }
-
 /* footer */
 .icons:hover {
   color: white !important;
 }
 
-/* @media screen and (min-width: 250px) and (max-width: 540px) {
-  .icons {
-    height: 2.5rem;
-  }
-} */
-
-button{
-  font-size: 0.9rem !important;
-}
-.text-white {
-  color: white;
-}
-/* img{
-box-shadow:
-  0.5px 4.5px 10px rgba(0, 0, 0, 0.07),
-  4px 36px 80px rgba(0, 0, 0, 0.14)
-;
-} */

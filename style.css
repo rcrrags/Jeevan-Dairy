@@ -34,7 +34,7 @@ color code #FF85B3 light pink */
   font-family: 'cooper_blackregular';
   src: url('font/COOPBL.TTF');
 }
-p{
+.para{
   font-size: larger;
   font-family: 'Playfair Display', serif;
 }
